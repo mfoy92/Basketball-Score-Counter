@@ -1,0 +1,40 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <style>
+            @import url('http://fonts.cdnfonts.com/css/cursed-timer-ulil');
+        </style>    
+    </head>
+    <body>
+        <div class="container">
+            <div class="teams">
+            <div>
+                <h3>HOME</h3>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+            </div>
+            </div>
+        <div class="scores">
+                <div id="score-one-container">
+                <h2 id="score-one"></h2>
+                </div>
+                <div id="score-two-container">
+                <h2 id="score-two"></h2>
+                </div>
+        </div>
+        <div class="btns">
+            <div class="btns-one">
+                <button class="btn" onclick="homeplusone()">+1</button>
+                <button class="btn" onclick="homeplustwo()">+2</button>
+                <button class="btn" onclick="homeplusthree()">+3</button>
+            </div>
+            <div class="btns-two">
+                <button class="btn" onclick="awayplusone()">+1</button>
+                <button class="btn" onclick="awayplustwo()">+2</button>
+                <button class="btn" onclick="awayplusthree()">+3</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
